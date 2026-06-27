@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>qs-crime-creator</title>
+  <script>
+    (function () {
+      var orig = window.dispatchEvent.bind(window);
+      window.dispatchEvent = function (event) {
+        if (event.type === 'message' && event.data && event.data.action) {
+          var e = event;
+          setTimeout(function () { orig(e); }, 0);
+          return true;
+        }
+        return orig(event);
+      };
+    })();
+  </script>
+  <script type="module" crossorigin src="./assets/index-BvQDWjHc.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BQClbQBg.css">
+</head>
+
+<!-- Sba@7643-->
+
+<body>
+  <div id="root"></div>
+</body>
+
+</html>

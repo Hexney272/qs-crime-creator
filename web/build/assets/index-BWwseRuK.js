@@ -1,0 +1,1 @@
+import{G as e,eJ as r}from"./index-BvQDWjHc.js";e()&&r(()=>Promise.resolve().then(()=>o),void 0,import.meta.url);const o=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"}));
