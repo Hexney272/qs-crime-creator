@@ -23,7 +23,7 @@
 --──────────────────────────────────────────────────────────────────────────────
 Config                              = {}
 
-Config.Locale                       = 'en'                          -- [EDIT] Language code. Available: ar, bg, da, de, el, en, es, fa, fr, hi, hu, it, ja, ko, nl, pt, ro, ru, tr, zh-CN
+Config.Locale                       = 'hu'                          -- [EDIT] Language code. Available: ar, bg, da, de, el, en, es, fa, fr, hi, hu, it, ja, ko, nl, pt, ro, ru, tr, zh-CN
 Config.Path                         = 'nui://qs-crime-creator/web/' -- [ADV]  Base NUI path (keep if you didn't move /web).
 Config.ImagePath                    = Config.Path .. 'images/'      -- [ADV]  Asset path for images.
 

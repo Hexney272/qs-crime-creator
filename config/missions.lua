@@ -10,8 +10,8 @@ Config.Missions = {
     -- Spray Missions
     ['spray-5'] = {
         id = 'spray-5',
-        label = 'Spray 5 Graffiti',
-        description = 'Spray 5 graffiti in your organization territory',
+        label = 'Fess 5 graffitit',
+        description = 'Fess 5 graffitit a szervezeted területén',
         type = 'graffiti',
         target_type = 'spray_count',
         target_value = 5,
@@ -25,8 +25,8 @@ Config.Missions = {
     },
     ['spray-10'] = {
         id = 'spray-10',
-        label = 'Spray 10 Graffiti',
-        description = 'Spray 10 graffiti in your organization territory',
+        label = 'Fess 10 graffitit',
+        description = 'Fess 10 graffitit a szervezeted területén',
         type = 'graffiti',
         target_type = 'spray_count',
         target_value = 1,
@@ -40,8 +40,8 @@ Config.Missions = {
     },
     ['spray-20'] = {
         id = 'spray-20',
-        label = 'Spray 20 Graffiti',
-        description = 'Spray 20 graffiti in your organization territory',
+        label = 'Fess 20 graffitit',
+        description = 'Fess 20 graffitit a szervezeted területén',
         type = 'graffiti',
         target_type = 'spray_count',
         target_value = 20,
@@ -58,8 +58,8 @@ Config.Missions = {
     -- Territory War Missions
     ['territory-war-win'] = {
         id = 'territory-war-win',
-        label = 'Win Territory War',
-        description = 'Win a territory war and capture the territory',
+        label = 'Területi háború megnyerése',
+        description = 'Nyerj meg egy területi háborút és foglald el a területet',
         type = 'territory_war',
         target_type = 'war_win',
         target_value = 1,
@@ -75,8 +75,8 @@ Config.Missions = {
     -- Drug Selling Missions
     ['drug-sell-10000'] = {
         id = 'drug-sell-10000',
-        label = 'Sell $10,000 Worth of Drugs',
-        description = 'Sell drugs worth $10,000 in organization territory',
+        label = 'Adj el $10,000 értékű drogot',
+        description = 'Adj el $10,000 értékű drogot a szervezet területén',
         type = 'drug_selling',
         target_type = 'drug_sale_amount',
         target_value = 10000,
@@ -92,8 +92,8 @@ Config.Missions = {
     -- Graffiti Removal Missions
     ['remove-graffiti-5'] = {
         id = 'remove-graffiti-5',
-        label = 'Remove 5 Enemy Graffiti',
-        description = 'Remove 5 graffiti from enemy organizations',
+        label = 'Távolíts el 5 ellenséges graffitit',
+        description = 'Távolíts el 5 graffitit ellenséges szervezetektől',
         type = 'graffiti',
         target_type = 'remove_count',
         target_value = 5,
@@ -109,8 +109,8 @@ Config.Missions = {
     -- Vehicle Theft Missions
     ['vehicle-theft'] = {
         id = 'vehicle-theft',
-        label = 'Steal Vehicle',
-        description = 'Steal a vehicle and deliver it to the buyer',
+        label = 'Jármű lopása',
+        description = 'Lopj el egy járművet és vidd el a vevőhöz',
         type = 'vehicle_theft',
         target_type = 'vehicle_delivery',
         target_value = 1,

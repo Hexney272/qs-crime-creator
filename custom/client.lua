@@ -193,70 +193,70 @@ function OpenInteractionMenu()
     local options = {
         {
             icon = 'FaSearch',
-            title = 'Steal',
+            title = 'Kirablás',
             onSelect = function()
                 SearchPlayer()
             end
         },
         {
             icon = 'FaUser',
-            title = 'Escort',
+            title = 'Kísérés',
             onSelect = function()
                 EscortPlayer()
             end
         },
         {
             icon = 'Fa6Handcuffs',
-            title = 'Handcuff',
+            title = 'Megbilincselés',
             onSelect = function()
                 HandcuffPlayer()
             end
         },
         {
             icon = 'FaHandPointLeft',
-            title = 'Put In Vehicle',
+            title = 'Járműbe ültetés',
             onSelect = function()
                 PutInVehicle()
             end
         },
         {
             icon = 'FaHandPointRight',
-            title = 'Get Out Vehicle',
+            title = 'Kiszállítás',
             onSelect = function()
                 OutVehicle()
             end
         },
         {
             icon = 'FaHandHoldingUsd',
-            title = 'Sell Drugs',
+            title = 'Drog eladás',
             onSelect = function()
                 cornerselling:start()
             end
         },
         {
             icon = 'Fa6Diamond',
-            title = 'Open Boss Menu',
+            title = 'Főnök Menü',
             onSelect = function()
                 bossmenu:open()
             end
         },
         {
             icon = 'Fa6Tablet',
-            title = 'Open Tablet',
+            title = 'Tablet megnyitása',
             onSelect = function()
                 tablet:open()
             end
         },
         {
             icon = 'FaMask',
-            title = 'Put Headbag',
+            title = 'Fejzsák felhelyezése',
             onSelect = function()
                 PutHeadbagOn()
             end
         },
         {
             icon = 'FaMask',
-            title = 'Take Off Headbag',
+            title = 'Fejzsák levétele',
             onSelect = function()
                 TakeHeadbagOff()
             end
